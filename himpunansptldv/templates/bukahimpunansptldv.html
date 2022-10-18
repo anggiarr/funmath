@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    
+    <div style="font-family:'tahoma';color:black;margin:50px;text-align:justify " class="petunjukpenggunaan">
+        <center><h1 style="color: #305866">Himpunan Penyelesaian Sistem Pertidaksamaan Linear Dua Variabel (SPtLDV)</h1></center>
+    <br>
+    <br>
+
+    <p style="color:#305866; background-color: #CDFCF6;">
+        <br>
+        Himpunan penyelesaian dari pertidaksamaan dapat digambarkan pada garis bilangan, khususnya untuk himpunan penyelesaian berupa interval. Batas-batas interval digambarkan dengan menggunakan tanda (bulatan penuh) atau (bulatan kosong). Tanda bulatan penuh menunjukkan bilangan tersebut termasuk ke dalam himpunan penyelesaian, dan sebaliknya tanda bulatan kosong menunjukkan bilangan tersebut tidak termasuk ke dalam himpunan penyelesaian. (Gumilar, 2008, p. 69)
+
+        Garis bilangan Himpunan
+        <br><br>
+        <b>1. Interval tertutup</b>
+        <br>
+        {x | a ≤ x ≤ b, x∈R} = [a, b]
+        <br><br>
+        <b>2. Interval setengah tertutup</b>
+        <br>
+        {x | a ≤ x < b, x∈R} = [a, b)
+        <br>
+        {x | a < x ≤ b, x∈R} = (a, b]
+        <br><br>
+        <b>3. Interval terbuka </b>
+        <br>
+        {x | a < x < b, x∈R} = (a, b)
+        <br><br>
+        <b>4. Interval setengah garis </b>
+        <br>
+        {x | x ≥ a, x∈R} = [a, ∞)
+        <br>
+        {x | x > a, x∈R) = (a, ∞)
+        <br>
+        {x | x ≤ a, x∈R) = (-∞, a]
+        <br>
+        {x | x < a, x∈R) = (-∞, a)
+        <br><br>
+        Simbol ∞ atau -∞ merupakan perluasan ke arah tak berhingga negatif atau tak berhingga positif. Interval yang diperluas sampai tak terhingga dinamakan interval tak hingga. Interval yang titik-titik ujungnya berhingga disebut interval berhingga. Interval berhingga yang memuat satu titik ujung, tetapi tidak memuat titik ujung yang lain disebut interval setengah terbuka atau interval setengah tertutup.
+        
+        
+        <br><br>
+    </p>
+        </div>
+
+        <button style="background-color:none"><img src="/static/images/panah.png" style="width:20px;height:20px"><a href="/submaterisptldv"><b style="font-family:'tahoma';color:#305866">SPtLDV</b></a></button>
+
+
+{%endblock%}

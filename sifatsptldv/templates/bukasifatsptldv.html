@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    
+    <div style="font-family:'tahoma';color:black;margin:50px;text-align:justify " class="petunjukpenggunaan">
+        <center><h1 style="color: #305866">Sifat-sifat Sistem Pertidaksamaan Linear Dua Variabel (SPtLDV)</h1></center>
+    <br>
+    <br>
+
+    <p style="color:#305866; background-color: #CDFCF6;">
+        <br>
+        Sebelum memahami sistem pertidaksamaan linear, kita harus terlebih dahulu memahami sifat-sifat dari pertidaksamaan itu sendiri.
+        <br>
+        <b>a. Sifat tak negatif</b> 
+        <br>
+        Untuk a ∈ R maka a ≥ 0.
+        <br><br>
+
+        <b>b.Sifat transitif</b>
+        <br>
+        Untuk a, b, c ∈ R jika a < b dan b < c maka a < c;
+        <br><br>
+        jika a > b dan b > c maka a > c
+        
+        <br><br>
+        <b>c.Sifat penjumlahan</b>
+        <br>
+        Untuk a, b, c ∈ R jika a < b maka a + c < b + c
+        <br>
+        jika a > b maka a + c > b + c
+        <br><br>
+        Jika kedua ruas pertidaksamaan dijumlahkan dengan bilangan yang sama, tidak mengubah tanda ketidaksamaan.
+        <br><br><br>
+
+        <b>d. Sifat perkalian</b>
+        <br>
+        Jika a < b, c > 0 maka ac < bc
+        <br>
+        Jika a > b, c > 0 maka ac > bc
+        <br>
+        Jika a < b, c < 0 maka ac < bc
+        <br><br>
+        Jika kedua ruas pertidaksamaan dikalikan bilangan (riil) positif tidak akan mengubah tanda ketidaksamaan, sedangkan jika dikalikan bilangan negatif akan mengubah tanda ketidaksamaan.
+        
+        <br><br><br>
+        <b>e.Sifat kebalikan</b>
+        <br>Jika a > 0 maka 1/a> 0
+        <br>Jika a < 0 maka 1/a < 0
+
+        <br><br>
+    </p>
+        </div>
+
+        <button style="background-color:none"><img src="/static/images/panah.png" style="width:20px;height:20px"><a href="/submaterisptldv"><b style="font-family:'tahoma';color:#305866">SPtLDV</b></a></button>
+
+
+{%endblock%}

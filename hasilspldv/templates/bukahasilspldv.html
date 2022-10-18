@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    
+    <div style="font-family:'tahoma';color:black;margin:50px;text-align:justify " class="petunjukpenggunaan">
+        <center><h1 style="color: #305866">Hasil Penyelesaian Sistem Persamaan Linear Dua Variabel (SPLDV)</h1></center>
+    <br>
+    <br>
+
+    <p style="color:#305866; background-color: #CDFCF6;">
+        <br>
+        Berdasarkan gradien garis (m) dan nilai c pada persamaan garis y = mx + c,
+        <br>
+        Sistem persamaan linear memiliki tiga kemungkinan banyaknya penyelesaian:
+        <br><br>
+        <b>1. Memiliki sebuah penyelesaian,</b>
+        <br>
+        jika m1 ≠ m2
+        <br>
+        <br>
+        Dua garis yang tidak sejajar dan berpotongan pada tepat satu titik (hanya satu penyelesaian).
+        <br><br><br>
+        <b>2. Memiliki banyak penyelesaian, </b>
+        <br>
+        jika m1 = m2 dan c1 = c2
+        <br><br>
+        Dua garis berhimpitan akan menghasilkan banyak atau tak hingga penyelesaian.
+        <br><br><br>
+        <b>3. Tidak memiliki penyelesaian, jika m1 = m2 dan c1 ≠ c2</b>
+        <br>
+        Dua garis yang sejajar dan tidak berhimpitan, tidak memiliki penyelesaian.
+
+        <br><br>
+    </p>
+        </div>
+
+        <button style="background-color:none"><img src="/static/images/panah.png" style="width:20px;height:20px"><a href="/submaterispldv"><b style="font-family:'tahoma';color:#305866">SPLDV</b></a></button>
+
+
+{%endblock%}
